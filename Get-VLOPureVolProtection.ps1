@@ -3,12 +3,10 @@
 Checks to ensure volumes have snapshots and data in those snapshots
 .DESCRIPTION
 All volume created on the arrays should have local snapshots.  The script will check to ensure any volumes that do not are reported.
-.PARAMETER mail
-Email address for recipients
 .PARAMETER Arrays
 Which arrays the script should run on
 .EXAMPLE
-.\Get-VLOPureVolProtection.ps1 -mail <user>@<domain>
+.\Get-VLOPureVolProtection.ps1
 .NOTES
     Name:               Check all volumes on all arrays for snapshots
     Created:            02/21/2024
