@@ -8,7 +8,7 @@ Email address for recipients
 .PARAMETER Arrays
 Which arrays the script should run on
 .EXAMPLE
-.\Get-VLOPureVolProtection.ps1 -mail thomas.spivey@valero.com
+.\Get-VLOPureVolProtection.ps1 -mail <user>@<domain>
 .NOTES
     Name:               Check all volumes on all arrays for snapshots
     Created:            02/21/2024
